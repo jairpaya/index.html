@@ -2,112 +2,59 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Página HTML5 - Fundamentos Web">
-    <meta name="author" content="Estudiante">
-    <title>Página HTML5 - Fundamentos Web</title>
+    <title>Taller 2</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 
-    <!-- ENCABEZADO -->
-    <header>
-        <h1>Introducción a HTML5</h1>
-        <p>
-            HTML5 es el lenguaje estándar para crear páginas web
-            <strong>estructuradas</strong> y
-            <em>semánticas</em>.
-        </p>
+    <header id="encabezado-principal">
+        <h1 class="titulo">Práctico Selectores CSS</h1>
+        <p class="destacado">Aplicación práctica de selectores básicos y avanzados.</p>
     </header>
 
-    <!-- NAVEGACIÓN -->
     <nav>
         <ul>
-            <li><a href="#conceptos">Conceptos básicos</a></li>
-            <li><a href="#contacto">Formulario de contacto</a></li>
-            <li><a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">
-                Documentación oficial de HTML
-            </a></li>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
         </ul>
     </nav>
 
-    <!-- CONTENIDO PRINCIPAL -->
     <main>
 
-        <!-- SECCIÓN 1 -->
-        <section id="conceptos">
-            <h2>Conceptos básicos</h2>
+        <section class="seccion">
+            <h2>Sección Principal</h2>
+            <p>Párrafo de la sección principal</p>
 
             <article>
-                <h3>¿Qué es HTML5?</h3>
-                <p>
-                    HTML5 permite definir el contenido de una página web de forma clara
-                    y organizada. Su objetivo principal es dar significado al contenido.
-                </p>
-
-                <blockquote>
-                    HTML no es un lenguaje de programación, es un lenguaje de marcado
-                    que define la estructura del contenido.
-                </blockquote>
+                <h3>Artículo 1</h3>
+                <p class="texto-especial">Parrafo del artículo 1</p>
             </article>
 
             <article>
-                <h3>Ventajas del uso de HTML semántico</h3>
-
-                <ul>
-                    <li>Mejora la accesibilidad</li>
-                    <li>Facilita el mantenimiento del código</li>
-                    <li>Optimiza el posicionamiento en buscadores</li>
-                </ul>
-
-                <p>Pasos para crear una página HTML:</p>
-                <ol>
-                    <li>Definir la estructura básica</li>
-                    <li>Organizar el contenido con etiquetas semánticas</li>
-                    <li>Agregar formularios y multimedia</li>
-                </ol>
+                <h3>Artículo 2</h3>
+                <p>Parrafo del artículo 2</p>
             </article>
         </section>
 
-        <!-- ASIDE -->
         <aside>
-            <h3>Dato adicional</h3>
-            <p>
-                El uso correcto de etiquetas semánticas permite que los lectores de
-                pantalla interpreten mejor el contenido.
-            </p>
+            <h3>Información adicional</h3>
+            <p>Contenido complementario.</p>
         </aside>
 
-        <!-- FORMULARIO -->
-        <section id="contacto">
-            <h2>Formulario de contacto</h2>
-
-            <form action="#" method="post">
-                <fieldset>
-                    <legend>Información personal</legend>
-
-                    <label for="nombre">Nombre:</label><br>
-                    <input type="text" id="nombre" name="nombre"><br><br>
-
-                    <label for="correo">Correo electrónico:</label><br>
-                    <input type="email" id="correo" name="correo"><br><br>
-
-                    <label for="mensaje">Mensaje:</label><br>
-                    <textarea id="mensaje" name="mensaje" rows="4" cols="40"></textarea><br><br>
-
-                    <button type="submit">Enviar</button>
-                </fieldset>
+        <section>
+            <h2>Formulario</h2>
+            <form>
+                <input type="text" placeholder="Nombre">
+                <input type="email" placeholder="Correo">
+                <button type="submit">Enviar</button>
             </form>
         </section>
 
     </main>
 
-    <!-- PIE DE PÁGINA -->
     <footer>
-        <p>
-            Página creada con HTML5 con fines académicos.
-        </p>
-        <p>
-            &copy; 2026 - Todos los derechos reservados
-        </p>
+        <p>© 2026 Taller CSS</p>
     </footer>
 
 </body>

@@ -1,0 +1,77 @@
+/* HORA 1 – SELECTORES BÁSICOS */
+
+/* Selector de tipo elemento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Selector de identificador */
+#encabezado-principal {
+    background-color: lightgray;
+    padding: 15px;
+}
+
+/* Selector de clase */
+.titulo {
+    color: darkblue;
+    font-size: 28px;
+}
+
+.destacado {
+    color: green;
+}
+
+.texto-especial {
+    color: red;
+    font-weight: bold;
+}
+
+/* HORA 2 – SELECTORES COMBINADORES */
+
+/* Selector descendente */
+section p {
+    color: purple;
+}
+
+/* Selector hijo directo */
+section > h2 {
+    border-bottom: 2px solid black;
+}
+
+/* Selector adyacente */
+h3 + p {
+    background-color: #f2f2f2;
+}
+
+/* Selector general */
+h2 ~ p {
+    font-style: italic;
+}
+
+/* HORA 3 – SELECTORES AVANZADOS */
+
+/* Pseudo-clase hover */
+a:hover {
+    color: orange;
+}
+
+/* first-child */
+ul li:first-child {
+    font-weight: bold;
+}
+
+/* last-child */
+ul li:last-child {
+    color: blue;
+}
+
+/* Selector de atributo */
+input[type="email"] {
+    background-color: #e0f7fa;
+}
+
+/* Selector de atributo con valor específico */
+input[type="text"] {
+    border: 2px solid green;
+}
